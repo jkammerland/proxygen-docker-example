@@ -13,10 +13,6 @@ list(APPEND CMAKE_PREFIX_PATH "/app/proxygen/_build")
 # Needed to find sodium-config.cmake
 list(APPEND CMAKE_MODULE_PATH "/app/proxygen/build/fbcode_builder/CMake")
 
-# This command below does not help you find the location of the libzstd
-# list(APPEND CMAKE_PREFIX_PATH
-# "/app/proxygen/_build/zstd-uIccJ_axYH3rldyv5Ejnt7zosjL9uKB3JxuRih_IAvI/")
-
 # Otherwise you will not find sodium correctly. And if you install with
 # packae-manager too, you get warnings
 list(
